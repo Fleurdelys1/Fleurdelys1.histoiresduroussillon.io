@@ -28,5 +28,5 @@ const fadeOut = (element, opacity) => {
 }
 
 const openArticle = (num) =>{
-    window.open("../html/art_"+num+".html",'_blank');
+    window.open("/root/html/art_"+num+".html",'_blank');
 }
