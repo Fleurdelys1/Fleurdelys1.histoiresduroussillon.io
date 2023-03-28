@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
     }
     console.log(header)
     header[0].addEventListener("click", () => {window.scrollTo(0,0)});
-    header[1].addEventListener("click", () => {window.open("/root/html/Categories.html")})
+    header[1].addEventListener("click", () => {window.open("histoiresduroussillon/root/html/Categories.html")})
     
 })
 
@@ -28,5 +28,5 @@ const fadeOut = (element, opacity) => {
 }
 
 const openArticle = (num) =>{
-    window.open("/root/html/art_"+num+".html",'_blank');
+    window.open("histoiresduroussillon/root/html/art_"+num+".html",'_blank');
 }
