@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
     }
     console.log(header)
     header[0].addEventListener("click", () => {window.scrollTo(0,0)});
-    header[1].addEventListener("click", () => {window.open("../html/Categories.html")})
+    header[1].addEventListener("click", () => {window.open("../root/html/Categories.html")})
     
 })
 
