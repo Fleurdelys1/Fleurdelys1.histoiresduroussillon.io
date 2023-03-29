@@ -46,7 +46,7 @@ header{
 }
 
 .left-image-box{
-    background-color: red;
+    background-color: rgb(116, 116, 116);
     width: 30%;
 }
 
@@ -68,10 +68,66 @@ header{
     text-justify: auto;
     margin-left: 15px;
     margin-right: 15px;
+    text-align: justify;
 }
 
 .img-article{
-    width: 100%;
+    width: 100%;    
     height: 100%;
     background-size: cover;
+}
+
+.article-content{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-article-content{
+    margin: 10px;
+    background-color: rgb(116, 116, 116);
+    color: rgb(56, 56, 56);
+    width: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article-img-entete{
+    width: 100%;
+    height: 400px;
+}
+
+.texte-article{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: justify;
+    width: 95%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.paragraphe{
+    width: 100%;
+    color: rgb(216, 216, 216);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.paragraphe-img-container{
+    width: 100%;
+    display: flex;
+}
+
+.img-paragraphe{
+    background-size: cover;
+    background-position: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    margin-right: 10px;
 }
