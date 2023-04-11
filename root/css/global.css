@@ -61,7 +61,8 @@ header{
 
 .titre-article{
     font-size: 30px;
-    margin-top: 15px
+    margin-top: 15px;
+    text-align: center;
 }
 
 .description-article{
@@ -116,6 +117,7 @@ header{
     color: rgb(216, 216, 216);
     font-size: 18px;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .paragraphe-img-container{
@@ -124,10 +126,7 @@ header{
 }
 
 .img-paragraphe{
-    background-size: cover;
-    background-position: 50%;
-    width: 100%;
-    height: 100%;
-    margin-top: 5px;
-    margin-right: 10px;
+    max-width: 100%;
+    height: auto;
 }
+
