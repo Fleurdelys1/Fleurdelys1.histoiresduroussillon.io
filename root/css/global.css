@@ -14,6 +14,7 @@ header{
     justify-content: space-around;
     align-items: center;
     gap: 5px;
+    cursor:grab
 }
 
 .header-container{
@@ -43,6 +44,7 @@ header{
     margin-top: 50px;
     display: flex;
     gap: 5px;
+    cursor:grab
 }
 
 .left-image-box{
@@ -126,7 +128,55 @@ header{
 }
 
 .img-paragraphe{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
+a{
+    margin-top: 5px;
+}
 
+a:link {
+    color: rgb(216, 216, 216);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(143, 143, 143);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(216, 216, 216);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.carte{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.sousTitre{
+    color: rgb(216,216,216);
+    font-size: 27px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-legende-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraphes-vertical{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px;
+}

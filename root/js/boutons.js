@@ -14,8 +14,8 @@ window.addEventListener("load", () => {
         })
     }
     console.log(header)
-    header[0].addEventListener("click", () => {window.open("../../index.html")});
-    header[1].addEventListener("click", () => {window.open("../../root/html/Categories.html")})
+    header[0].addEventListener("click", () => {window.open("../../index.html", "_self")});
+    header[1].addEventListener("click", () => {window.open("../../root/html/Categories.html", "_self")})
     
 })
 
@@ -28,5 +28,5 @@ const fadeOut = (element, opacity) => {
 }
 
 const openArticle = (num) =>{
-    window.open("../../root/html/art_"+num+".html",'_blank');
+    window.open("../../root/html/art_"+num+".html", "_self");
 }
