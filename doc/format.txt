@@ -1,0 +1,35 @@
+Images
+	- Image pleine largeur titre
+	- Image pleine largeur entre chapitres
+	- Images larges entre paragraphes
+	- Images côte à côte entre paragraphes
+	- Images dans paragraphe
+		* Gauche du paragraphe
+		* Droite du paragraphe
+
+Texte 
+	- Titre dans image
+	- Paragraphes centrés justifiés avec large bordure
+	- Assez petits paragraphes
+	- Écriture assez large, lignes pas trop longues
+	- Description image en gras plus petit
+	- Crédits photos plus petit que description en gras
+
+Chapitre 
+	- Marquage clair, débutant avec image pleine largeur et sous-titre de chapitre
+	- Couleur de background différente
+	
+
+Palette 
+	- 463F3A
+	- 8A817C
+	- BCB8B1
+	- F4F3EE
+	- E0AFA0
+
+	- 1F1F1F
+	- 363946
+	- 696773
+	- 819595
+	- 5F6553
+	
