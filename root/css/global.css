@@ -1,6 +1,5 @@
 body {
     background-color: rgb(37, 35, 35);
-    height: 5000px;
     font-family: 'Chivo';
     margin: 0px;
 }
@@ -327,5 +326,47 @@ a:hover{
 
     .gras{
         font-size: 25px;
+    }
+
+    /* INDEX */
+
+    .articles-container{
+        margin-top: 10%;
+    }
+
+    .article{
+        height: 150px;
+        margin-top: 10%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        gap: 0px;
+    }
+
+    .left-image-box{
+        width: 45%;
+    }
+
+    .titre-article{
+        font-size: 22px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .description-article{
+        display: none;
+    }
+
+    header{
+        height: 60px;
+        gap: 2px;
+    }
+    
+    .header-container{
+        font-size: 10px;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
