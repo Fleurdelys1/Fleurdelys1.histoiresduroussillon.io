@@ -15,7 +15,9 @@ window.addEventListener("load", () => {
     }
     console.log(header)
     header[0].addEventListener("click", () => {window.open("../../index.html", "_self")});
-    header[1].addEventListener("click", () => {window.open("../../root/html/Categories.html", "_self")})
+    header[1].addEventListener("click", () => {window.open("../../root/html/indisponible.html", "_self")})
+    header[2].addEventListener("click", () => {window.open("../../root/html/indisponible.html", "_self")})
+    header[3].addEventListener("click", () => {window.open("../../root/html/indisponible.html", "_self")})
     
 })
 
